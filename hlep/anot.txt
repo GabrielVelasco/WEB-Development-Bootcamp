@@ -1,0 +1,45 @@
+head = não aparece na pag mas eh importante
+body = parte visivel da pag
+*atributos vao DENTRO da tag
+
+<tag atributo = "valor">	conteudo	</tag>
+<tag atributo = "valor" /> // abre e fecha tag na msm linha
+
+tag h1 = titulo <!-- apenas um por pag -->
+	h1 = mais importante
+	h6 = menos importante com relacao ao google
+
+tag p = paragrafo
+tag br = quebra linha
+tag em = destacar italico
+tag strong = negrito
+
+tag ul = unordered list
+tag ol = ordered list
+	tag li = texto da lista
+tag dl = definition list
+	tag dt = ITEM
+	tag dd = descricao do ITEM
+
+<!-- COMENTARIO -->
+
+	<header>
+	<nav>
+<section>		<side>
+<article<	
+	<footer>
+
+
+tag blockquote = fazer citacoes de fases, textos no meio do site
+tag a = adicionar links
+	arg blank = abri em nova janela
+		target="_blank"
+	arg title = descricao do link no mouse
+		title=""
+	
+tag img = importar img, self close tag
+	arg img = caminho da img
+	arg alt = descricao da img (para motores de busca)
+
+# -> id
+. -> classe

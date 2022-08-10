@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- valor do atributo sempre entre "" -->
+		<meta charset="utf-8" /> <!-- self close -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title> Login </title> <!-- Titulo da aba -->
+		<style>
+			body{
+				font-family: sans-serif;
+				width: 300px;
+				height: 300px;
+				padding: 0px 0px 0px 400px;
+			}
+			#login{
+			      display: flex;
+			      flex-direction: column;
+			      align-items: center;
+			      margin: 20vh;
+			      width: 300px;
+			      background: #ffff003d;
+			}
+			#botoes{
+				padding: 10px 120px 10px 0px;
+			}
+			#rodap{
+				padding: 0px 0px 0px 15px;
+				font-size: 11px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="login">
+			<h1>Tela de Login</h1>
+			
+			<form>
+				<div>
+					<p>Código do representante TASCHIBRA</p>
+					<input name="Usuario"/>
+				</div>
+
+				<div>
+					<p>Senha</p>
+					<input type="password"/>
+				</div>
+			</form>
+
+			<div id="botoes">
+				<button>Confirmar</button>
+				<button>Cancelar</button>
+			</div>
+
+			<div id="rodap">
+				<p>Obetenha seu código e sua senha com seu monitor na TASCHIBRA</p>
+			</div>
+		</div>
+	</body>
+</html>

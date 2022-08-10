@@ -1,0 +1,66 @@
+body {
+	display: flex;
+	justify-content: center;
+}
+
+.container {
+	/*box-sizing: border-box;*/
+	width: 600px;
+	height: 100px;
+	border: 1px solid black;
+	display: flex;
+	justify-content: center;
+	border-radius: 10px;
+	padding: 10px 10px;
+}
+
+.box {
+	border-right: 1px solid black;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	width: 33%;
+	height: 100%;
+}
+
+.box:last-child {
+	border: none;
+}
+
+.box2 {
+	width: 90%;
+	height: 70%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.boxx {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50%; 
+}
+
+.box_s {
+	height: 100%;
+}
+
+.col_winnig {
+	color: green;
+}
+
+.col_loser {
+	color: red;
+}
+
+.col_draw {
+	color: black;
+}
+
+span {
+	display: block;
+	text-align: center;
+	margin: 20%;
+	font-size: 30px;
+}

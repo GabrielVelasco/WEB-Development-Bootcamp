@@ -1,0 +1,22 @@
+	Links:
+https://www.youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb (C++)
+
+https://www.youtube.com/channel/UCyw2sRlaDSYLiM07oZfL7BQ (Aulas C)
+
+https://www.youtube.com/watch?v=QLH-sXfWb00 (Jogo da Velha)
+
+https://youtu.be/8OK8_tHeCIA (Tetris in C++)
+
+https://www.geeksforgeeks.org/data-types-in-c/ (Data types, int, float...)
+
+https://youtu.be/B8DjTcANBx0 (Hacking security camera)
+
+https://medium.com/tunapanda-institute/8-steps-to-publish-your-portfolio-on-github-9d6e6e3d2e84 (GitHub Portfolio)
+
+https://medium.com/better-programming/9-courses-to-learn-for-free-d7951a959f82 (Cursos free)
+
+https://www.youtube.com/watch?v=xFFs9UgOAlE (Mark Zuq lecture)
+
+https://drive.google.com/drive/folders/1xNVV1J5Gh8HQ7yhLh8Ylr8v8smNiQ03Q (Desenv Web OmniStack)
+
+https://cs50.harvard.edu/college/2020/spring/ (Curso harvard)

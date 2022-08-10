@@ -1,0 +1,19 @@
+#div1 {
+	height: 900px;
+	width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.but {
+	width: 100px;
+	height: 100px;
+}
+
+.commentSection {
+	height: 900px;
+	width: 1200px;
+    border: 2px solid black;
+}

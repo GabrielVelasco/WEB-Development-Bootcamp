@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!-- Bootstrap won't overwrite my styles -->
+    <link rel="stylesheet" type="text/css" href="app.css">
+</head>
+
+<body>
+
+	<div class="container first">
+		<h1 class="text-primary text-center">Bootstrap baby!</h1>
+	</div>
+
+	<div class="container border">
+		<h2 class="text-secondary sub-title"><u>Buttons</u>	:</h2>
+		<button type="button" class="btn btn-primary btn-lg">LG BUTTON</button>
+		<button type="button" class="btn btn-outline-secondary">OUTLINE BTN</button>
+		<button type="button" class="btn btn-outline-success" disabled>DISABLE BTN</button>
+		<a href="#" class="btn btn-primary" role="button">LINK AS A BUTTON</a>
+	</div>
+
+	<div class="container border">
+		<h2 class="text-secondary sub-title"><u>Typography & Utilities</u>	:</h2>
+		<p>Text decoration, alignment, blockquotes... </p>
+		<!-- <h1 class="display-1">Display-1</h1> -->
+	</div>
+
+	<div class="container border">
+		<h2 class="text-secondary sub-title"><u>Badges, Alerts, & Button Groups</u>	:</h2>
+		<p>
+			Badges are Spans w/ class badge. 
+			<button class="btn btn-primary" type="button">Notification <span class="badge badge-light">7</span></button>
+		</p>
+		<p>
+			With button groups, all button will be together.
+		</p>
+		<p class="alert alert-danger">
+			Alert, bringing attention to something.
+		</p>
+		<p>
+			It's possible to dismiss the alert.
+		</p>
+	</div>
+
+	<div class="container border">
+		<h2 class="text-secondary sub-title"><u>Grid System</u>	</h2>
+		<p>A 'row' has 12 units on a line</p>
+		<div class="row">
+			<div class="col-sm-1 bg-warning">xsmall</div>
+			<div class="col-2 bg-success">small</div>
+			<div class="col-3 bg-secondary">medium</div>
+			<div class="col-4 bg-danger">large...</div>
+		</div>
+		<br>
+		<p>'col-md-6': AFTER the medium breakpoint, this column will takes 6 units.</p>
+		<p class="border bg-secondary">With bootstrap it's possible to do everything I would normally do with Flex Box/Media Queries, align-item, justify-content, border...</p>
+	</div>
+
+	<div class="container border">
+		<h2 class="text-secondary sub-title"><u>Forms</u>:</h2>
+		<p>Classes: form-group, form-row, form-check-label, form-check-input ...</p>
+		<p>Different classes styles to each kind of input (checkboxes to switches...).</p>
+	</div>
+
+	<div class="container border">
+		<h2 class="text-secondary sub-title"><u>Navbars</u>:</h2>
+		<p>A bunch of things, pls see the website</p>
+	</div>
+
+	<div class="container border">
+		<h2 class="text-secondary sub-title"><u>Icons:</u>:</h2>
+		<button class="btn btn-lg btn-danger">ALARM <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-alarm" viewBox="0 0 16 16">
+		  <path d="M8.5 5.5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9V5.5z"/>
+		  <path d="M6.5 0a.5.5 0 0 0 0 1H7v1.07a7.001 7.001 0 0 0-3.273 12.474l-.602.602a.5.5 0 0 0 .707.708l.746-.746A6.97 6.97 0 0 0 8 16a6.97 6.97 0 0 0 3.422-.892l.746.746a.5.5 0 0 0 .707-.708l-.601-.602A7.001 7.001 0 0 0 9 2.07V1h.5a.5.5 0 0 0 0-1h-3zm1.038 3.018a6.093 6.093 0 0 1 .924 0 6 6 0 1 1-.924 0zM0 3.5c0 .753.333 1.429.86 1.887A8.035 8.035 0 0 1 4.387 1.86 2.5 2.5 0 0 0 0 3.5zM13.5 1c-.753 0-1.429.333-1.887.86a8.035 8.035 0 0 1 3.527 3.527A2.5 2.5 0 0 0 13.5 1z"/>
+		</svg>
+		</button>
+		<p></p>
+		<p>It uses SVGs</p>
+		
+		<div class="row">
+			<div class="col-2">
+				<div class="input-group">
+					<!-- predefined input -->
+					<div class="input-group-prepend">
+						<span class="input-group-text">R$</span>
+					</div>
+					<input type="text" class="form-control">	
+				</div>	
+			</div>
+		</div>
+	</div>
+
+	<div class="container border">
+		<h2 class="text-secondary sub-title">Shadow, border radius, margin, padding ... (Other utilities)</h2>
+		<div class="row d-flex justify-content-center">
+			<div class="col-6 border rounded bg-light shadow">
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, delectus accusantium. Id architecto sit libero at quis aspernatur natus, consectetur? Laborum sint placeat ad quos quae quo sed esse blanditiis?</p>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+	<hr>
+	<h1>YEEEA</h1>
+</body>
+
+</html>

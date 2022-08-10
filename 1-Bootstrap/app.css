@@ -1,0 +1,9 @@
+.sub-title {
+	margin-top: 50px;
+	margin-left: 100px;
+	margin-bottom: 50px;
+}
+
+.container.first {
+	border-bottom: 1px solid black;
+}

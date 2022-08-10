@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Best Team Check</title>
+</head>
+<body>
+	<h1>EJS with logic</h1>
+	
+	<p>Checks if <%= team%> is at the array</p>
+	<br>
+	
+	<!-- logic: -->
+	<%const f = arrNames.find((elem) => { %>
+		<%return elem === team %>
+	<%}) %>
+
+	<%if (f != undefined){ %>
+		<h1><%= f%> is there!</h1>
+	<%}else{ %>
+		<h1>is not there!</h1>
+	<%} %>
+
+</body>
+</html>

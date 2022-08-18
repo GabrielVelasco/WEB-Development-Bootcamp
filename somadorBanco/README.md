@@ -3,7 +3,9 @@
 Soma o total debitado, 'D', (retirado) da conta.
 Cada linha é uma operação.
 
-    Ex entrada:
+
+Entrada:
+
 01/08/0000	292303	CP DB VISA	35,00 D	X.XXX,XX C
 
 01/08/0000	000000	REM BASICA	0,91 C	X.XXX,XX C
@@ -12,5 +14,8 @@ Cada linha é uma operação.
 
 01/08/0000	301052	ENVIO PIX	216,70 D	X.XXX,XX C
 
-    Ex saída:
+
+
+Saída:
+
 Saiu da Conta == R$ 251.7

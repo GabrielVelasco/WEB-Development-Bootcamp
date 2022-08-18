@@ -1,4 +1,4 @@
-# Somador fatura banco
+# Pratica em tratamento de strings
 
 Soma o total debitado, sigla 'D' da conta CAIXA (Internet Banking).
 Cada linha é uma operação.
@@ -6,7 +6,7 @@ Cada linha é uma operação.
 
 Entrada:
 
-DATA COD "DESCRICAO OPERACAO" VALOR [D, C] SALDO 
+Modelo Linha: DATA COD "DESCRICAO OPERACAO" VALOR [D, C] SALDO 
 
 01/08/0000	292303	CP DB VISA	35,00 D	X.XXX,XX C
 
